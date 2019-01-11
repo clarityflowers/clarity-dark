@@ -1,28 +1,32 @@
 {
-  "name": "Clarity theme",
-  "type": "light",
+  "name": "Clarity Dark",
+  "type": "dark",
   "colors": {
-    "editor.background": "#f5f5f5",
-    "editor.foreground": "#333"
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#d4d4d4",
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb"
   },
   "tokenColors": [
-    {
-      "settings": {
-        "foreground": "#333"
-      }
-    },
     {
       "name": "JSX",
       "scope": ["source.js meta.tag"],
       "settings": {
-        "foreground": "#2F74D0"
+        "foreground": "#62A9FF"
+      }
+    },
+    {
+      "name": "css-in-js",
+      "scope": ["source.js source.css"],
+      "settings": {
+        "foreground": "#62A9FF"
       }
     },
     {
       "name": "JSX embedded",
       "scope": ["source.js meta.tag meta.embedded.expression.js"],
       "settings": {
-        "foreground": "#333"
+        "foreground": "#d4d4d4"
       }
     },
     {
@@ -41,7 +45,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#62A9FF"
+        "foreground": "#2F74D0"
       }
     },
     {
@@ -49,13 +53,6 @@
       "scope": "invalid.illegal",
       "settings": {
         "foreground": "#FF4848"
-      }
-    },
-    {
-      "name": "Language Constants",
-      "scope": ["constant.language", "support.constant"],
-      "settings": {
-        "foreground": "#FF68DD"
       }
     },
     {
@@ -72,31 +69,52 @@
       }
     },
     {
-      "name": "Numbers, Characters",
-      "scope": ["constant.numeric", "constant.character", "constant"],
+      "name": "Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.character",
+        "constant",
+        "string",
+        "constant.language",
+        "support.constant"
+      ],
       "settings": {
-        "foreground": "#FF68DD"
+        "foreground": "#FF97E8"
       }
     },
     {
-      "name": "Strings",
-      "scope": "string",
+      "name": "css-in-js constants",
+      "scope": [
+        "source.js source.css constant.numeric",
+        "source.js source.css constant.character",
+        "source.js source.css constant",
+        "source.js source.css string",
+        "source.js source.css constant.language",
+        "source.js source.css support.constant"
+      ],
       "settings": {
-        "foreground": "#FF68DD"
+        "foreground": "#FF97E8"
       }
     },
     {
       "name": "Strings: Escape Sequences",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#FF97E8"
+        "foreground": "#FF68DD"
       }
     },
     {
       "name": "Template Strings",
       "scope": ["meta.template.expression"],
       "settings": {
-        "foreground": "#333"
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "name": "CSS Attribute Names",
+      "scope": ["source.css entity.other.attribute-name"],
+      "settings": {
+        "fontStyle": "bold"
       }
     }
   ]

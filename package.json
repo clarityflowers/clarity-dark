@@ -1,13 +1,9 @@
 {
-    "name": "clarity-vscode-theme",
-    "displayName": "clarity-vscode-theme",
-    "description": "clean colors",
+    "name": "clarity-dark",
+    "displayName": "clarity-dark",
+    "description": "",
+    "version": "1.0.0",
     "publisher": "strangerelics",
-    "repository": {
-        "type": "github",
-        "url": "https://github.com/strangerelics/clarity-vscode-theme"
-    },
-    "version": "0.0.6",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -17,9 +13,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Clarity",
-                "uiTheme": "vs",
-                "path": "./themes/Clarity theme-color-theme.json"
+                "label": "Clarity Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Clarity Dark-color-theme.json"
             }
         ]
     }
