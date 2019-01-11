@@ -1,22 +1,26 @@
 {
-    "name": "clarity-dark",
-    "displayName": "clarity-dark",
-    "description": "",
-    "version": "1.0.0",
-    "publisher": "strangerelics",
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Clarity Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Clarity Dark-color-theme.json"
-            }
-        ]
-    }
+  "name": "clarity-dark",
+  "displayName": "Clarity Dark",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "strangerelics",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/strangerelics/clarity-dark"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Clarity Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Clarity Dark-color-theme.json"
+      }
+    ]
+  }
 }
