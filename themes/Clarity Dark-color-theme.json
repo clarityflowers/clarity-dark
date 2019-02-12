@@ -10,21 +10,21 @@
   "tokenColors": [
     {
       "name": "JSX",
-      "scope": ["source.js meta.tag"],
+      "scope": ["source.js meta.tag", "source.tsx meta.tag"],
       "settings": {
         "foreground": "#62A9FF"
       }
     },
     {
       "name": "css-in-js",
-      "scope": ["source.js source.css"],
+      "scope": ["source.js source.css", "source.tsx source.css"],
       "settings": {
         "foreground": "#62A9FF"
       }
     },
     {
       "name": "JSX embedded",
-      "scope": ["source.js meta.tag meta.embedded.expression.js"],
+      "scope": ["source meta.tag meta.embedded.expression"],
       "settings": {
         "foreground": "#d4d4d4"
       }
@@ -90,7 +90,13 @@
         "source.js source.css constant",
         "source.js source.css string",
         "source.js source.css constant.language",
-        "source.js source.css support.constant"
+        "source.js source.css support.constant",
+        "source.tsx source.css constant.numeric",
+        "source.tsx source.css constant.character",
+        "source.tsx source.css constant",
+        "source.tsx source.css string",
+        "source.tsx source.css constant.language",
+        "source.tsx source.css support.constant"
       ],
       "settings": {
         "foreground": "#FF97E8"
