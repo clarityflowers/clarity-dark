@@ -1,7 +1,7 @@
 # Change Log
-All notable changes to the "clarity-dark" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 2020-11-30
 
-## [Unreleased]
-- Initial release
+- Support coloring documentation as blue for comment lines in addition to comment blocks. This is relevant for Zig, which does not have block comments.
+- Slightly brightened the documentation color to improve contrast.
+- Support for elixir & vue

@@ -9,22 +9,52 @@
   },
   "tokenColors": [
     {
-      "name": "JSX",
-      "scope": ["source.js meta.tag", "source.tsx meta.tag"],
+      "name": "Vue Template Tag",
+      "scope": ["source.vue"],
       "settings": {
-        "foreground": "#62A9FF"
+        "foreground": "#FF97E8",
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Vue JS",
+      "scope": ["source.vue source.ts", "source.vue source.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": [
+        "source.js meta.tag",
+        "source.tsx meta.tag",
+        "text.html.vue-html"
+      ],
+      "settings": {
+        "foreground": "#62A9FF",
+        "fontStyle": ""
       }
     },
     {
       "name": "css-in-js",
-      "scope": ["source.js source.css", "source.tsx source.css"],
+      "scope": [
+        "source.js source.css",
+        "source.tsx source.css",
+        "source.vue source.css"
+      ],
       "settings": {
-        "foreground": "#62A9FF"
+        "foreground": "#62A9FF",
+        "fontStyle": ""
       }
     },
     {
       "name": "JSX embedded",
-      "scope": ["source meta.tag meta.embedded.expression"],
+      "scope": [
+        "source meta.tag meta.embedded.expression",
+        "source.vue text.html.vue-html expression.embedded.vue",
+        "source.vue text.html.vue-html source.directive.vue"
+      ],
       "settings": {
         "foreground": "#d4d4d4"
       }
@@ -40,12 +70,13 @@
     {
       "name": "Documentation",
       "scope": [
+        "comment.line.documentation",
         "comment.block.documentation",
         "comment.block.documentation punctuation.definition.comment"
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#2F74D0"
+        "foreground": "#3883e6"
       }
     },
     {
@@ -104,14 +135,14 @@
     },
     {
       "name": "Strings: Escape Sequences",
-      "scope": "constant.character.escape",
+      "scope": ["constant.character.escape", "punctuation.section.embedded"],
       "settings": {
         "foreground": "#FF68DD"
       }
     },
     {
       "name": "Template Strings",
-      "scope": ["meta.template.expression"],
+      "scope": ["meta.template.expression", "source.elixir.embedded.source"],
       "settings": {
         "foreground": "#d4d4d4"
       }
