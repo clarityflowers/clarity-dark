@@ -1,158 +1,165 @@
 {
-  "name": "Clarity Dark",
-  "type": "dark",
-  "colors": {
-    "editor.background": "#1e1e1e",
-    "editor.foreground": "#d4d4d4",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
-  },
-  "tokenColors": [
-    {
-      "name": "Vue Template Tag",
-      "scope": ["source.vue"],
-      "settings": {
-        "foreground": "#FF97E8",
-        "fontStyle": "bold underline"
-      }
+    "name": "Clarity Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1e1e1e",
+        "editor.foreground": "#d4d4d4",
+        "activityBarBadge.background": "#007acc",
+        "sideBarTitle.foreground": "#bbbbbb"
     },
-    {
-      "name": "Vue JS",
-      "scope": ["source.vue source.ts", "source.vue source.js"],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "JSX",
-      "scope": [
-        "source.js meta.tag",
-        "source.tsx meta.tag",
-        "text.html.vue-html"
-      ],
-      "settings": {
-        "foreground": "#62A9FF",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "css-in-js",
-      "scope": [
-        "source.js source.css",
-        "source.tsx source.css",
-        "source.vue source.css"
-      ],
-      "settings": {
-        "foreground": "#62A9FF",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "JSX embedded",
-      "scope": [
-        "source meta.tag meta.embedded.expression",
-        "source.vue text.html.vue-html expression.embedded.vue",
-        "source.vue text.html.vue-html source.directive.vue"
-      ],
-      "settings": {
-        "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#FF4848"
-      }
-    },
-    {
-      "name": "Documentation",
-      "scope": [
-        "comment.line.documentation",
-        "comment.block.documentation",
-        "comment.block.documentation punctuation.definition.comment"
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#3883e6"
-      }
-    },
-    {
-      "name": "Invalid - Illegal",
-      "scope": "invalid.illegal",
-      "settings": {
-        "foreground": "#FF4848"
-      }
-    },
-    {
-      "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "support.function",
-        "entity.name.type",
-        "entity.other.inherited-class",
-        "support.class"
-      ],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Constants",
-      "scope": [
-        "constant.numeric",
-        "constant.character",
-        "constant",
-        "string",
-        "constant.language",
-        "support.constant"
-      ],
-      "settings": {
-        "foreground": "#FF97E8"
-      }
-    },
-    {
-      "name": "css-in-js constants",
-      "scope": [
-        "source.js source.css constant.numeric",
-        "source.js source.css constant.character",
-        "source.js source.css constant",
-        "source.js source.css string",
-        "source.js source.css constant.language",
-        "source.js source.css support.constant",
-        "source.tsx source.css constant.numeric",
-        "source.tsx source.css constant.character",
-        "source.tsx source.css constant",
-        "source.tsx source.css string",
-        "source.tsx source.css constant.language",
-        "source.tsx source.css support.constant"
-      ],
-      "settings": {
-        "foreground": "#FF97E8"
-      }
-    },
-    {
-      "name": "Strings: Escape Sequences",
-      "scope": ["constant.character.escape", "punctuation.section.embedded"],
-      "settings": {
-        "foreground": "#FF68DD"
-      }
-    },
-    {
-      "name": "Template Strings",
-      "scope": ["meta.template.expression", "source.elixir.embedded.source"],
-      "settings": {
-        "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "CSS Attribute Names",
-      "scope": ["source.css entity.other.attribute-name"],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    }
-  ]
+    "tokenColors": [
+        {
+            "name": "Vue Template Tag",
+            "scope": ["source.vue"],
+            "settings": {
+                "foreground": "#FF97E8",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Vue JS",
+            "scope": ["source.vue source.ts", "source.vue source.js"],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "JSX",
+            "scope": [
+                "source.js meta.tag",
+                "source.tsx meta.tag",
+                "text.html.vue-html"
+            ],
+            "settings": {
+                "foreground": "#62A9FF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "css-in-js",
+            "scope": [
+                "source.js source.css",
+                "source.tsx source.css",
+                "source.vue source.css"
+            ],
+            "settings": {
+                "foreground": "#62A9FF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "JSX embedded",
+            "scope": [
+                "source meta.tag meta.embedded.expression",
+                "source.vue text.html.vue-html expression.embedded.vue",
+                "source.vue text.html.vue-html source.directive.vue"
+            ],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FF4848"
+            }
+        },
+        {
+            "name": "Documentation",
+            "scope": [
+                "comment.line.documentation",
+                "comment.block.documentation",
+                "comment.block.documentation punctuation.definition.comment",
+                "string.quoted.docstring"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#3883e6"
+            }
+        },
+        {
+            "name": "Invalid - Illegal",
+            "scope": "invalid.illegal",
+            "settings": {
+                "foreground": "#FF4848"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "support.function",
+                "entity.name.type",
+                "entity.other.inherited-class",
+                "support.class"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.character",
+                "constant",
+                "string",
+                "constant.language",
+                "support.constant"
+            ],
+            "settings": {
+                "foreground": "#FF97E8"
+            }
+        },
+        {
+            "name": "css-in-js constants",
+            "scope": [
+                "source.js source.css constant.numeric",
+                "source.js source.css constant.character",
+                "source.js source.css constant",
+                "source.js source.css string",
+                "source.js source.css constant.language",
+                "source.js source.css support.constant",
+                "source.tsx source.css constant.numeric",
+                "source.tsx source.css constant.character",
+                "source.tsx source.css constant",
+                "source.tsx source.css string",
+                "source.tsx source.css constant.language",
+                "source.tsx source.css support.constant"
+            ],
+            "settings": {
+                "foreground": "#FF97E8"
+            }
+        },
+        {
+            "name": "Strings: Escape Sequences",
+            "scope": [
+                "constant.character.escape",
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#FF68DD"
+            }
+        },
+        {
+            "name": "Template Strings",
+            "scope": [
+                "meta.template.expression",
+                "source.elixir.embedded.source"
+            ],
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "CSS Attribute Names",
+            "scope": ["source.css entity.other.attribute-name"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }
+    ]
 }
